@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #474747
+}
+
+/*Divs*/
+
+div {
+    background-color: black;
+    text-align: center;
+    border: 2px solid red;
+    display: inline-block;
+    height: 270px;
+    width: 270px;
+}
+
+div > p {
+    background-color: red;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+/*Id*/
+
+#azul {
+    height: 0px;
+    display: none;
+}
+
+#roxo {
+    height: 0px;
+    display: none
+}
+
+#verde {
+    height: 0px;
+    display: none
+}
+
+/*Pseudo-classes*/ 
+
+#caixa1:hover {
+    background-image: linear-gradient(to bottom, rgb(2, 2, 49) , blue );
+    border: 2px solid blue;
+}
+
+#caixa2:hover {
+    background-image: linear-gradient(to bottom, rgb(27, 0, 27), rgb(223, 0, 223) );
+    border: 2px solid purple;
+}
+
+#caixa3:hover {
+    background-image: linear-gradient(to bottom, rgb(1, 39, 1), rgb(0, 247, 0));
+    border: 2px solid green;
+}
+
+#p1:hover {
+    background-color: white;
+    color: blue;
+    border: 2px solid darkblue;
+}
+
+#p2:hover {
+    background-color: white;
+    color: purple;
+    border: 2px solid #3100310;
+}
+
+#p3:hover {
+    background-color: white;
+    color: green;
+    border: 2px solid darkgreen;
+}
+
+div:hover > #azul {
+    display: block;
+    color: white;
+}
+
+div:hover > #roxo {
+    display: block;
+    color: white;
+}
+
+div:hover > #verde {
+    display: block;
+    color: white;
+}
+
+

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.img-video {
+    width: 350px;
+}

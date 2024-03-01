@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes, ou, simplesmente, aumente e diminua o tamanho do seu navegador.</p>
+
+    <!--Use "Picture" para adicionar várias imagens e, "source media type", para mudar o tamanho da imagem, de acordo com o tamanho da tela do usuário (sempre colocar 50px a mais, por causa da barra de rolagem) (sempre colocar debaixo pra cima, do maior para o menor) -->
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="Imagem grande">
+    </picture>
+
+    <h1>Aúdios</h1>
+    <p>Vamos aprender a reproduzir aúdios</p>
+    <!--Forma simples (não funciona em todos os navegadores)-->
+     <!--Compatível com: MP3; WAV e OGG-->
+    <audio src="midia/fronteira-anacastela.mp3" controls autoplay></audio>
+
+    <!--Forma "certa"-->
+    <audio preload="metadata" controls> <!--Metadata só carrega informações necessárias do aúdio. Mas só é reproduzido se clicado-->
+        <source src="midia/fronteira-anacastela.mp3" type="audio/mpeg"> 
+        <!--Mpeg = MP3-->
+    </audio>
+
+    <p>
+        Infelizmente o seu navegador não é compatível com aúdios. <a href="midia/fronteira-anacastela.mp3">Clique aqui para baixar o arquivo MP3.</a>
+    </p>
+</body>
+</html>

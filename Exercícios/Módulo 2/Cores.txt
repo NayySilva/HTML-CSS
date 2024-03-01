@@ -1,0 +1,21 @@
+*CÍRCULO CROMÁTICO*
+
+- Contém "12" cores
+. Amarelo-esverdeado
+. Amarelo
+. Amarelo-alaranjado
+. Laranja
+. Vermelho-alaranjado
+. Vermelho
+. Vermelho-arroxeado
+. Violeta
+. Azul-arroxeado
+. Azul 
+. Azul-esverdeado
+. Verde
+(sempre a cor primária vem primeiro)
+
+- Cores primárias: Amarelo,vermelho e azul
+- Cores secundárias: Laranja, violeta e verde
+- Cores contrastadas (sem armonia): O oposto da mesma
+- Cores análogas (sem contraste, mas armonizada): Do lado da mesma

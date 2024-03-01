@@ -1,0 +1,25 @@
+*TIPOGRAFIA*
+
+- Tipo = Typo (colocar algo no papel)
+- Grafia = Graphía (escrita)
+- Tipografia = Estudo de como vou escrever algo
+
+*ANATOMIA DO TIPO
+
+- Altura-x = Todas as letras minúsculas de uma fonte, são baseadas no tamanho do X minúsculo
+- Altura das maiúsculas = A sobra de letra vazada acima do ascendente
+- Ascendente = Tamanho do vazamento pra cima de uma letra na altura-x
+- Descendente = Tamanho do vazamento pra baixo de uma letra na altura-x
+- Corpo = Altura total das letras (soma das 4 medidas acima)
+
+- Glifo = uma letra
+- Fonte = conjunto de glifos
+- Família tipográfica = formatos de fontes
+
+*CATEGORIAS DE FONTES
+
+- Serifadas
+- Sans-serif
+- Monoespaçadas
+- Handwriting
+- Display

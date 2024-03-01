@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body {
+    background-color: #000785;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: #010438;
+}
+
+p {
+    text-indent: 7px;
+    color: white;
+}
+
+/*ID*/
+
+h1#principal {
+    background-color: #00055C;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    margin: 7px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/*CLASS*/
+
+.secundario{
+    background-color: #00055C;
+    text-align: center;
+}
+
+.basico {
+    color: rgb(8, 199, 8);
+    background-color: rgb(25, 110, 17);
+    margin-right: 70em;
+}
+
+.intermediario {
+    color: yellow;
+    background-color: rgb(110, 110, 17);
+    margin-right: 60em;
+}
+
+.avançado {
+    color: red;
+    background-color: rgb(110, 17, 17);
+    margin-right: 50em;
+}
